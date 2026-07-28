@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(21, 61, 94);
+}
+
+header {
+    background: rgb(32, 64, 204);
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+nav {
+    background: rgb(226, 127, 45);
+    text-align: center;
+    padding: 10px;
+}
+
+nav a {
+    color: rgb(194, 186, 186);
+    text-decoration: none;
+    margin: 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: white;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+
+section {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px gray;
+}
+
+h2 {
+    color: black;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background: #f2f2f2;
+}
+
+ul {
+    line-height: 1.8;
+}
+
+footer {
+    background: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 15px;
+} 
